@@ -1,7 +1,9 @@
 #!/usr/bin/python
 #-*- coding:utf-8 -*-
 
+# tuple 不可变
 t1 = (1,2,"a",True,False);
+# list 可变
 t2 = [1,2,"a",True,False];
 
 print (t1, type(t1))
