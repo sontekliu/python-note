@@ -6,3 +6,9 @@
 
 print("Hello World")
 print("张三")
+
+print "The quick brown fox", "aaaa", "bbbb"
+
+name = raw_input("please 输入:")
+
+print name
