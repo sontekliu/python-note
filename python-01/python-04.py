@@ -14,3 +14,10 @@
 print ord('A')
 print chr(65)
 
+for i in range(257):
+	print i , '-->', chr(i),
+
+print 
+print u'中文'.encode('utf-8')
+
+

@@ -14,3 +14,17 @@ print t1[0:3:2]
 
 # 将序列翻转
 print t2[::-1] 
+
+# 添加元素
+t2.append('aaa')
+print t2
+# 指定位置添加元素
+t2.insert(1,'1111')
+print t2
+# 修改元素
+t2[1] = "abc"
+# 删除元素
+t2.pop()
+print t2
+t2.pop(3)
+print t2
