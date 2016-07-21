@@ -19,5 +19,34 @@ d.pop('bob')
 
 print d
 
+# set 学习 set 是一组key的集合，但是key不能重复,只能放入不可变对象
+
+# 1. set 定义
+
+s = set([1,2,3,4])
+
+print s
+
+# 2. 添加元素
+s.add(5)
+print s
+
+# 3. 删除元素
+
+s.remove(4)
+print s
+
+s.add((1,2,3))
+print s
+s.add((1,2,[1,2]))   #放入不成功，set只能放入不可变对象
+print s
+
+
+
+
+
+
+
+
 
 
