@@ -63,32 +63,32 @@ print list_sum(nums[0],nums[1],nums[2],nums[3],nums[4])
 # 或者
 print list_sum(*nums) # 常用
 
-# 3. 关键字参数
+# 3. 关键字参数，关键字参数允许你传入0个或者任意含参数名的参数，这些关键字在函数内部自动组装成为一个dict
 
+def show(name, age, **kv):
+	print 'name:', name, 'age:', age, 'other:', kv
 
+show('zhangsan', 30)
+show('zhangsan', 30, city='beijing', gender="M")
 
+kv = {'city':'beijing','gender':'M'}
+show('zhangs',33, **kv)
 
+# 4. 组合参数，即，必选参数、默认参数、可变参数和关键字参数组合使用，
+# 参数定义的顺序必须是:必选参数、默认参数、可变参数和关键字参数
 
+def fun(x, y=10, z=20, *args, **kv):
+	print 'x=', x, 'y=', y, 'z=', z, 'args=', args, 'kv', kv
 
+fun('A')
+fun('A', 23)
+fun('A', 23, 1, 2, 3, 4)
+fun('A', 23, 1, 2, 3, 4, c='v')
+lll = [1, 3, 4, 5]
+kv = {'abc':'xyz'}
+fun(*lll, **kv)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# 总结，对于任意函数，都可有使用fun(*args, **kv)的形式调用它，无论其参数是如何调用的
 
 
 
