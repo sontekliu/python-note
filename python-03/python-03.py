@@ -7,6 +7,15 @@ print range(1,10)
 
 print [x*x for x in range(1,11)]
 
+print [x*x for x in range(1,11) if x % 2 ==0 ]
+
+import os
+print [d for d in os.listdir('.')]
+
+lis = ['Hello', 2, 'ABC', 'Zhangbo', None]
+print [s.lower() for s in lis if isinstance(s, str)]
+
+
 
 
 
