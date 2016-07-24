@@ -24,19 +24,3 @@ print 'ABCDEFGHIJKLMN'[::2]
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
