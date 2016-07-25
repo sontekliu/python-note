@@ -20,3 +20,9 @@ def by_score(x, y):
 	return y
 print sorted(L, key=lambda x: x[0])
 print sorted(L, key=lambda x: x[1])
+
+
+
+
+
+
