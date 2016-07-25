@@ -41,3 +41,10 @@ def prod(x, y):
 	return x * y
 print reduce(prod, [1,2,3,4,5,6])
 
+
+
+
+
+
+
+
