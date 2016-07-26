@@ -14,7 +14,18 @@ f = lazy_sum(1,2,3,4,5)
 print (f)
 print (f())
 
+def count():
+	fs = []
+	for i in range(1, 5):
+		def f():
+			return i * i
+		fs.append(f)
+	print fs
+	return fs
 
+f1, f2, f3, f4 = count()
+
+print f1(), f2(), f3()
 
 
 
