@@ -31,7 +31,7 @@ with open('food.png', 'rb') as f:
 with open('filetest2.txt', 'rb') as f:
 	print f.read().decode('utf-8')
 
-# 写文件
+# 写文件（覆盖原有的内容）
 with open('filetest2.txt', 'w') as f:
 	f.write("abcd Hello World")
 

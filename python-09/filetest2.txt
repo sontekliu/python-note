@@ -1,3 +1,1 @@
-ABCDEFG
-张三
-离散
+abcd Hello World
