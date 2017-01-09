@@ -1,5 +1,5 @@
 ### python-note
-python学习笔记，无其他作用
+python学习笔记.
 
 Python 学习教程资源:
 
